@@ -16,14 +16,16 @@ public class OreGenerationHandler {
 
     public static void oreGeneration(final BiomeLoadingEvent event) {
         if (!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
-            //生成铜矿
-            generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, COBlocks.BRONZE_ORE.get().defaultBlockState(), 8, 15, 80, 12);
+            generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, COBlocks.BRONZE_ORE.get().defaultBlockState(),
+                    10, 1, 60, 12);
+            generateOre(event.getGeneration(),OreFeatureConfig.FillerBlockType.NATURAL_STONE,COBlocks.MITHRIL_ORE.get().defaultBlockState(),
+                    6,1,40,6);
         }
     }
 
     private static void generateOre(BiomeGenerationSettingsBuilder set, RuleTest ft, BlockState st,
                                     int size, int minHeight, int maxHeight, int amount) {
         set.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE.configured(new OreFeatureConfig(ft, st, size
-        )).decorated(Placement.RANGE.configured(new TopSolidRangeConfig(minHeight, 0, maxHeight)).squared().count(amount)));
+        )).decorated(Placement.RANGE.configured(new TopSolidRangeConfig(minHeight, minHeight, maxHeight)).squared().count(amount)));
     }
 }
