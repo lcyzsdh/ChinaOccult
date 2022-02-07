@@ -1,4 +1,4 @@
-package lcyzsdh.chinaoccult.utils;
+package lcyzsdh.chinaoccult.world;
 
 import lcyzsdh.chinaoccult.blocks.COBlocks;
 import net.minecraft.block.BlockState;
@@ -12,7 +12,7 @@ import net.minecraft.world.gen.placement.TopSolidRangeConfig;
 import net.minecraftforge.common.world.BiomeGenerationSettingsBuilder;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 
-public class OreGenEventHandler {
+public class OreGenerationHandler {
 
     public static void oreGeneration(final BiomeLoadingEvent event) {
         if (!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
