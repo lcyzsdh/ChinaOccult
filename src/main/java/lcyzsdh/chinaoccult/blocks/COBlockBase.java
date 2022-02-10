@@ -10,7 +10,7 @@ import net.minecraftforge.common.ToolType;
 /**
  * ChinaOccult标准方块，提供预设的配置
  */
-public class COBasicBlock {
+public class COBlockBase {
     public static Block.Properties basicStone(){
         return Block.Properties.of(Material.STONE, MaterialColor.STONE)
                 .strength(3.0f,6.0f)

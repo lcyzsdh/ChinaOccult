@@ -17,4 +17,5 @@ public class COItems {
     //BlockItem
     public static final RegistryObject<Item> BRONZE_ORE=ITEMS.register("bronze_ore",()->new BlockItem(COBlocks.BRONZE_ORE.get(),new Item.Properties().tab(Utils.ChinaOccultItemGroup)));
     public static final RegistryObject<Item> MITHRIL_ORE=ITEMS.register("mithril_ore",()->new BlockItem(COBlocks.MITHRIL_ORE.get(),new Item.Properties().tab(Utils.ChinaOccultItemGroup)));
+    public static final RegistryObject<Item> ORCHID_FLOWER=ITEMS.register("orchid_flower",()->new BlockItem(COBlocks.ORCHID_FLOWER.get(),new Item.Properties().tab(Utils.ChinaOccultItemGroup)));
 }

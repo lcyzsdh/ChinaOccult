@@ -11,6 +11,7 @@ public class BiomeLoadEvent {
     @SubscribeEvent
     public static void onBiomeLoading(final BiomeLoadingEvent event) {
         //矿物生成
-        OreGenerationHandler.oreGeneration(event);
+        OreGeneration.oreGeneration(event);
+        FlowerGeneration.flowerGen(event);
     }
 }

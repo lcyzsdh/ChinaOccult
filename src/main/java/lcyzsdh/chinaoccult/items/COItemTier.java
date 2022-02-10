@@ -1,7 +1,6 @@
 package lcyzsdh.chinaoccult.items;
 
 import net.minecraft.item.IItemTier;
-import net.minecraft.item.Items;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyValue;
 
@@ -9,7 +8,10 @@ import java.util.function.Supplier;
 
 public enum COItemTier implements IItemTier {
     MITHRIL(3, 1800, 7.0f, 3.5f, 15,() -> {
-        return Ingredient.of(Items.NETHERITE_INGOT);
+        return Ingredient.of(COItems.MITHRIL_INGOT.get());
+    }),
+    BLACK_STEEL(4,2100,9.0f,3.5f,30,()->{
+        return Ingredient.of(COItems.BLACK_STEEL_INGOT.get());
     });
 
     private final int level;
