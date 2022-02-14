@@ -1,9 +1,9 @@
 {
   "item.chinaoccult.black_steel_ingot": "精钢锭",
   "item.chinaoccult.cinnabar": "辰砂",
-  "item.chinaoccult.bronze_ore": "辉铜矿",
+  "block.chinaoccult.cinnabar_ore": "辰砂矿",
   "item.chinaoccult.silver_ingot": "白银锭",
-  "item.chinaoccult.silver_ore": "白银矿",
-  "item.chinaoccult.orchid_flower": "兰花",
-  "itemGroup.chinaoccult_group": "东方秘术物品栏"
+  "block.chinaoccult.silver_ore": "白银矿",
+  "block.chinaoccult.orchid_flower": "兰花",
+  "itemGroup.chinaoccult": "东方秘术物品栏"
 }

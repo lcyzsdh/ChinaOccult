@@ -8,10 +8,10 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 public class COUtils {
     public static final String MOD_ID = "chinaoccult";
-    public static final ItemGroup ChinaOccultItemGroup= new ItemGroup("chinaoccult") {
+    public static final ItemGroup COtItemGroup = new ItemGroup("chinaoccult") {
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
-            return new ItemStack(COItems.BLACK_STEEL_INGOT.get());
+            return new ItemStack(COItems.CINNABAR.get());
         }
     };
 }

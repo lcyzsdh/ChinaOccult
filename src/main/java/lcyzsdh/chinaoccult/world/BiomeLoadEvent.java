@@ -13,5 +13,6 @@ public class BiomeLoadEvent {
         //矿物生成
         OreGeneration.oreGeneration(event);
         FlowerGeneration.flowerGen(event);
+        TreeGeneration.treeGen(event);
     }
 }

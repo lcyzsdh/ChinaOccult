@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chinaoccult:block/cinnabar_ore"
+  }
+}

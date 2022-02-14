@@ -10,5 +10,5 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class COTileEntities {
     public static final DeferredRegister<TileEntityType<?>> TILE_ENTITIES=DeferredRegister.create(ForgeRegistries.TILE_ENTITIES, COUtils.MOD_ID);
     public static final RegistryObject<TileEntityType<IronBenchTileEntity>> IBTE=
-            TILE_ENTITIES.register("iron_bench_tileentity",()->TileEntityType.Builder.of(IronBenchTileEntity::new, COBlocks.BRONZE_ORE.get()).build(null));
+            TILE_ENTITIES.register("iron_bench_tileentity",()->TileEntityType.Builder.of(IronBenchTileEntity::new, COBlocks.IRONBEN.get()).build(null));
 }
