@@ -8,7 +8,7 @@ import java.util.function.Supplier;
 
 public enum COItemTier implements IItemTier {
     MITHRIL(3, 1800, 7.0f, 3.5f, 15,() -> {
-        return Ingredient.of(COItems.MITHRIL_INGOT.get());
+        return Ingredient.of(COItems.SILVER_INGOT.get());
     }),
     BLACK_STEEL(4,2100,9.0f,3.5f,30,()->{
         return Ingredient.of(COItems.BLACK_STEEL_INGOT.get());

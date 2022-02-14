@@ -1,7 +1,7 @@
 package lcyzsdh.chinaoccult.blocks.tileentities;
 
 import lcyzsdh.chinaoccult.client.IronBenchContainer;
-import lcyzsdh.chinaoccult.utils.Utils;
+import lcyzsdh.chinaoccult.utils.COUtils;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
@@ -23,7 +23,7 @@ public class IronBenchTileEntity extends TileEntity implements INamedContainerPr
 
     @Override
     public ITextComponent getDisplayName() {
-        return new TranslationTextComponent("gui."+ Utils.MOD_ID+"iron_bench");
+        return new TranslationTextComponent("gui."+ COUtils.MOD_ID+"iron_bench");
     }
 
     @Nullable
