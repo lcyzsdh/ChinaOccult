@@ -1,9 +1,13 @@
 {
+  "block.chinaoccult.cinnabar_ore": "辰砂矿",
+  "block.chinaoccult.orchid_flower": "兰花",
+  "block.chinaoccult.silver_ore": "白银矿",
   "item.chinaoccult.black_steel_ingot": "精钢锭",
   "item.chinaoccult.cinnabar": "辰砂",
-  "block.chinaoccult.cinnabar_ore": "辰砂矿",
   "item.chinaoccult.silver_ingot": "白银锭",
-  "block.chinaoccult.silver_ore": "白银矿",
-  "block.chinaoccult.orchid_flower": "兰花",
+  "item.chinaoccult.silver_coin": "银币",
+  "item.chinaoccult.gold_coin": "金币",
+  "item.chinaoccult.pellet_ordinary": "平凡的药丸",
+  "item.chinaoccult.pellet_fire_protection": "辟火丸",
   "itemGroup.chinaoccult": "东方秘术物品栏"
 }
